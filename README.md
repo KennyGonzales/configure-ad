@@ -21,10 +21,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Naming Domain Controller VM (Windows Server 2022), "DC-1"
+- Setting Domain Controller's NIC Private IP address as "static"
+- Labeling ICMPv4 (ping) as "allowed" on the Domain Controller
+- Creating an Admin account & User account in Active Directory 
+- Make "Client-1" login with one of the users 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -32,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
   
-Write here  
+To begin, we need to create a resource group that will serve as a container for the virtual machines, namely the Domain Controller (DC-1) and the Client Virtual Machine (Client-1). The Domain Controller VM will be provisioned using a Windows Server 2022 system image, which is a serialized copy of the complete state of a computer system stored in a non-volatile form, such as a file.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
