@@ -63,7 +63,7 @@ The private IP address has been configured as static, which is essential for dev
 
 <p>
   
-Write here  
+Next, verify the connection between the client device and domain controller by accessing Client-1 using Remote Desktop Connection (RDP) and initiating a perpetual ping to DC-1's private IP address using the ping -t command. To allow ICMPv4 (ping) communication, the Windows Firewall on the Domain Controller (DC-1) was configured to permit ICMP Echo Request (ICMPv4-In) through Core Networking Diagnostics. Once you log back into Client-1, ensure that the ping operation is successful.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -73,7 +73,37 @@ Write here
 
 <p>
   
-Write here  
+The image below demonstrates that the ICMP rule has been permitted on the Windows Firewall to allow inbound traffic. 
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+After accessing the 'add roles and features' option within DC-1, we enabled Active Directory Domain Services and promoted DC-1 as a Domain Controller (DC) for a newly created forest named mydomain.com. Subsequently, we restarted Remote Desktop and logged back into DC-1 using the user credentials mydomain.com\labuser.  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+While remaining connected to DC-1 through Remote Desktop Connection, we proceed to set up organizational units for admins and employees in Active Directory (AD). The newly created accounts can now be found in their respective organizational units within Active Directory. To create the required folders for your AD, simply right-click on your domain name in Active Directory, navigate to the "new" option, select "Organizational Unit," and proceed to create folders for employees, admins, and security groups.  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Let's create a new Organizational Unit (OU) called '_ADMINS'. Afterward, we will proceed to create a new employee named Karen What with the username 'karen_admin' and set the same password. Once the admin account is created, we will add 'karen_admin' to the 'domain admins' security group.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
