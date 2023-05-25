@@ -43,6 +43,36 @@ To begin, we need to create a resource group that will serve as a container for 
 
 <p>
   
+The Client Virtual Machine (Client-1) has been deployed on Windows 10 and is now part of the same Resource Group and Virtual Network (Vnet) as the previously created DC-1 (Domain Controller).
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+The private IP address has been configured as static, which is essential for devices requiring uninterrupted accessibility.  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Write here  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
 Write here  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
