@@ -162,7 +162,7 @@ A message will display that Client has been added to the domain.
 To create the users for our _EMPLOYEES organizational unit in the domain controller (DC-1), we will utilize PowerShell_ISE with administrative privileges. Start by creating a new file and entering the provided pre-configured script. Running the script will generate the random employees as specified.  
   
 <details>  
-  <summary> <h6>pre-configured Powershell Script</h6> </summary>
+  <summary> <h6>Pre-Configured Powershell Script</h6> </summary>
   
   
 ```powershell
@@ -215,8 +215,7 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 ```
   
 </details>
-  
-  
+    
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
