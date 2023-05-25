@@ -148,7 +148,10 @@ To proceed, select the 'Custom' radio button in the DNS server configuration. Th
   
 After successfully updating the DNS server with the private IP address of DC-1, we can proceed with adding Client-1 to the domain without any errors. You will receive a notification confirming the successful addition of the client to the domain. To accomplish this, navigate to System > Rename This PC, enter the domain name, and click OK. Finally, select Apply to save the changes. Keep in mind that a system restart will be necessary to apply the updates.  
   
+A message will display that Client has been added to the domain.  
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -156,7 +159,7 @@ After successfully updating the DNS server with the private IP address of DC-1, 
 
 <p>
   
-Write here  
+To create the users for our _EMPLOYEES organizational unit in the domain controller (DC-1), we will utilize PowerShell_ISE with administrative privileges. Start by creating a new file and entering the provided pre-configured script. Running the script will generate the random employees as specified.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
