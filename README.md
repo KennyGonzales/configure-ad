@@ -215,7 +215,20 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 ```
   
 </details>
-    
+  
+By executing this Powershell script, 1000 random users will be generated.
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+The users being created from the Powershell script will now be within the Active Directory on the Domain Controller.  
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -224,17 +237,7 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 
 <p>
   
-Write here  
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
-
-<p>
-  
-Write here  
+You can login on Client-1 with any user that has been created.   
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
