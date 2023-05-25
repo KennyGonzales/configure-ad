@@ -113,6 +113,39 @@ Let's create a new Organizational Unit (OU) called '_ADMINS'. Afterward, we will
 
 <p>
   
+To proceed, please log out and close the current session for the user 'mydomain.com\labuser' on DC-1. Then, log in again using the credentials 'mydomain.com\karen_admin'.
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Now, let's move on to joining Client-1 to the domain (mydomain.com). To do this, we need to change the DNS configuration on Client-1. Specifically, we will replace the current DNS settings with the private IP address of DC-1. This modification is necessary to ensure a proper connection between Client-1 and the domain. To make the change, locate the Network Interface Card (NIC) settings on Client-1 and update the DNS configuration with the private IP address of DC-1. 
+  
+Then, select DNS servers.  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Write here  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
 Write here  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
