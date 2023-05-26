@@ -228,7 +228,7 @@ By executing this Powershell script, 1000 random users will be generated.
 
 <p>
   
-The users being created from the Powershell script will now be within the Active Directory on the Domain Controller.  
+The users being created from the Powershell script will now be within the **Active Directory** on the Domain Controller.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
