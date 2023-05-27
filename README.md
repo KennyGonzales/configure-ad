@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
 To begin, we need to create a resource group that will serve as a container for the virtual machines, namely the Domain Controller (`DC-1`) and the Client Virtual Machine (`Client-1`). The Domain Controller VM will be provisioned using a **Windows Server 2022** system image, which is a serialized copy of the complete state of a computer system stored in a non-volatile form, such as a file.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yrZz8I3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -45,7 +45,7 @@ To begin, we need to create a resource group that will serve as a container for 
   
 The Client Virtual Machine (`Client-1`) has been deployed on Windows 10 and is now part of the same Resource Group and Virtual Network (Vnet) as the previously created `DC-1` (Domain Controller).
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Pp5DQdu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
