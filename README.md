@@ -55,7 +55,7 @@ The Client Virtual Machine (`Client-1`) has been deployed on Windows 10 and is n
   
 The private IP address has been configured as **_static_**, which is essential for devices requiring uninterrupted accessibility.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -65,7 +65,7 @@ The private IP address has been configured as **_static_**, which is essential f
   
 Verify the connection between the client device and domain controller by accessing `Client-1` using **Remote Desktop Connection (RDP)** and initiating a perpetual ping to `DC-1's` private IP address using the **ping -t** command. To allow ICMPv4 (ping) communication, the Windows Firewall on the Domain Controller (`DC-1`) was configured to permit **ICMP Echo Request (ICMPv4-In)** through **Core Networking Diagnostics**. Once you log back into `Client-1`, ensure that the ping operation is successful.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
