@@ -147,19 +147,11 @@ Lastly, select the **"Custom"** radio button in the DNS server configuration. Th
 
 <p>
   
-To proceed, select the "**Custom"** radio button in the DNS server configuration. This will allow you to enter the private IP address of `DC-1`. 
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
-
-<p>
-  
-After successfully updating the DNS server with the private IP address of `DC-1`, we can proceed with adding `Client-1` to the domain without any errors. You will receive a notification confirming the successful addition of the client to the domain. To accomplish this, navigate to **System** → **Rename This PC** → **enter the domain name** → and click "OK". Finally, select **Apply** to save the changes. Keep in mind that a system restart will be necessary to apply the updates.  
+After successfully updating the DNS server with the private IP address of `DC-1`, we can proceed with adding `Client-1` to the domain without any errors. To accomplish this, navigate to **System** → **Rename This PC** → **enter the domain name** → and click "OK". Finally, select **Apply** to save the changes. Keep in mind that a system restart will be necessary to apply the updates.  
   
 A message will display that Client has been added to the domain.  
+  
+>**Note**: You will receive a _notification_ confirming the successful addition of the client to the domain.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
