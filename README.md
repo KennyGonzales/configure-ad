@@ -55,7 +55,7 @@ The Client Virtual Machine (`Client-1`) has been deployed on Windows 10 and is n
   
 The private IP address has been configured as **_static_**, which is essential for devices requiring uninterrupted accessibility.  
   
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/861r4PD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
