@@ -100,9 +100,11 @@ After accessing the "add roles and features" option within `DC-1`, we enabled Ac
 
 <p>
   
-While remaining connected to `DC-1` through Remote Desktop Connection, we proceed to set up **organizational units** for admins and employees in Active Directory (AD). The newly created accounts can now be found in their respective organizational units within Active Directory. To create the required folders for your AD, simply **right-click** on your domain name in Active Directory, navigate to the **"new"** option, select **"Organizational Unit"**, and proceed to create folders for employees, admins, and security groups.  
+While remaining connected to `DC-1` through Remote Desktop Connection, we proceed to set up **organizational units** for admins and employees in Active Directory (AD). The newly created accounts can now be found in their respective organizational units within Active Directory. 
+
+To create the required folders for your AD, simply **right-click** on your domain name in Active Directory, navigate to the **"new"** option, select **"Organizational Unit"**, and proceed to create folders for employees, admins, and security groups.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L1F8cbr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
