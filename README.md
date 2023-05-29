@@ -104,7 +104,7 @@ While remaining connected to `DC-1` through Remote Desktop Connection, we procee
 
 To create the required folders for your AD, simply **right-click** on your domain name in Active Directory, navigate to the **"new"** option, select **"Organizational Unit"**, and proceed to create folders for employees, admins, and security groups.  
   
-<img src="https://i.imgur.com/L1F8cbr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L1F8cbr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -114,7 +114,8 @@ To create the required folders for your AD, simply **right-click** on your domai
   
 Let's create a new Organizational Unit (OU) called `_ADMINS`. We will proceed to create a new employee named "Karen Karen" with the username "**karen_admin"** and set the same password. Once the admin account is created, we will add **"karen_admin**" to the _domain admins_ security group.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tq02E1F.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qjiFVGj.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -124,7 +125,7 @@ Let's create a new Organizational Unit (OU) called `_ADMINS`. We will proceed to
   
 To proceed, please log out and close the current session for the user **mydomain.com\labuser** on `DC-1`. Then, log in again using the credentials **mydomain.com\karen_admin**.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -136,8 +137,8 @@ Now, let's move on to joining `Client-1` to the domain (**mydomain.com**). To do
   
 Then, select **DNS servers**.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
