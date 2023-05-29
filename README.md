@@ -92,6 +92,7 @@ After accessing the "add roles and features" option within `DC-1`, we enabled Ac
 <img src="https://i.imgur.com/zDW6929.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/e14M74x.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Btlmf3W.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/v0CrEN2.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
