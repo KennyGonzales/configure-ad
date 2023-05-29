@@ -125,7 +125,7 @@ Let's create a new Organizational Unit (OU) called `_ADMINS`. We will proceed to
   
 To proceed, please log out and close the current session for the user **mydomain.com\labuser** on `DC-1`. Then, log in again using the credentials **mydomain.com\karen_admin**.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/34rZo6N.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -137,8 +137,9 @@ Now, let's move on to joining `Client-1` to the domain (**mydomain.com**). To do
   
 Then, select **DNS servers**.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
+Lastly, select the **"Custom"** radio button in the DNS server configuration. This will allow you to enter the private IP address of `DC-1`.  
+  
+<img src="https://i.imgur.com/qwU5GYy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
