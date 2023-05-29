@@ -89,8 +89,9 @@ The image below demonstrates that the **ICMP** rule has been permitted on the Wi
   
 After accessing the "add roles and features" option within `DC-1`, we enabled Active Directory Domain Services and promoted `DC-1` as a Domain Controller for a newly created forest named mydomain.com. Remote Desktop was restarted and logged back into `DC-1` using the user credentials **"mydomain.com\labuser"**.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/zDW6929.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e14M74x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Btlmf3W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
