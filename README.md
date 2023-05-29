@@ -55,7 +55,7 @@ The Client Virtual Machine (`Client-1`) has been deployed on Windows 10 and is n
   
 The private IP address has been configured as **_static_**, which is essential for devices requiring uninterrupted accessibility.  
   
-<img src="https://i.imgur.com/2UO3Wc1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2UO3Wc1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -67,7 +67,7 @@ Verify the connection between the client device and domain controller by accessi
   
 >**Note**: To ensure connectivity, activate the two ICMPv4-In rules **while initiating perpetual ping (ping -t)** to DC-1.
   
-<img src="https://i.imgur.com/7P9UgKE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/7P9UgKE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -79,7 +79,7 @@ The image below demonstrates that the **ICMP** rule has been permitted on the Wi
   
 >**Note**: To access into the Windows Firewall, type **wf.msc** _or_ **firewall** into the Windows searchbar.  
   
-<img src="https://i.imgur.com/K7n2bSF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K7n2bSF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -89,9 +89,9 @@ The image below demonstrates that the **ICMP** rule has been permitted on the Wi
   
 After accessing the "add roles and features" option within `DC-1`, we enabled Active Directory Domain Services and promoted `DC-1` as a Domain Controller for a newly created forest named mydomain.com. Remote Desktop was restarted and logged back into `DC-1` using the user credentials **"mydomain.com\labuser"**.  
   
-<img src="https://i.imgur.com/zDW6929.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/e14M74x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Btlmf3W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/zDW6929.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e14M74x.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Btlmf3W.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
