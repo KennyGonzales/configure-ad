@@ -139,6 +139,8 @@ Then, select **DNS servers**.
   
 Lastly, select the **"Custom"** radio button in the DNS server configuration. This will allow you to enter the private IP address of `DC-1`.  
   
+>**Note**: Restart `Client-1` from **Azure Portal** before the next section.   
+  
 <img src="https://i.imgur.com/qwU5GYy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
@@ -153,8 +155,8 @@ A message will display that Client has been added to the domain.
   
 >**Note**: You will receive a _notification_ confirming the successful addition of the client to the domain.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
