@@ -142,6 +142,7 @@ Lastly, select the **"Custom"** radio button in the DNS server configuration. Th
 >**Note**: Restart `Client-1` from **Azure Portal** before the next section.   
   
 <img src="https://i.imgur.com/qwU5GYy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/u9a9V9A.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>   
 </p>
 <p>
 </p>
@@ -155,8 +156,8 @@ A message will display that Client has been added to the domain.
   
 >**Note**: You will receive a _notification_ confirming the successful addition of the client to the domain.  
   
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/sk1jmQS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/O5TlFuw.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -165,6 +166,8 @@ A message will display that Client has been added to the domain.
 <p>
   
 To create the users for our `_EMPLOYEES` organizational unit in the domain controller (`DC-1`), we will utilize _PowerShell_ISE_ with **administrative privileges**. Start by creating a new file and entering the provided pre-configured script. Running the script will generate the random employees as specified.  
+  
+>**Source**: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
   
 <details>  
   <summary> <h6>Pre-Configured Powershell Script</h6> </summary>
@@ -223,8 +226,8 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
   
 By executing this Powershell script, 1000 random users will be generated.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/DwzyM3J.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AObauKF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -234,7 +237,7 @@ By executing this Powershell script, 1000 random users will be generated.
   
 The users being created from the Powershell script will now be within the **Active Directory** on the Domain Controller.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4tzgzF6.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -244,7 +247,8 @@ The users being created from the Powershell script will now be within the **Acti
   
 You can login on `Client-1` with any user that has been created.   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xhx8VSi.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
