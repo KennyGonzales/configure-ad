@@ -165,6 +165,14 @@ A message will display that Client has been added to the domain.
 
 <p>
   
+To enable *_remote desktop_* access for regular domain users on `Client-1`, log into `Client-1` using the username **domain.com\karen_admin**, _or the username you created_. In the System settings, select **Remote Desktop** and click "Select Users that can remotely access this PC". Click **Add** to add the users. In the **Select Users or Groups**, enter "Domain Users", and **Check Names** to validate the entry. Click "OK" to add the users and "Apply" to save the changes. 
+  
+<img src="https://i.imgur.com/SbsFMr4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />  
+  
 To create the users for our `_EMPLOYEES` organizational unit in the domain controller (`DC-1`), we will utilize _PowerShell_ISE_ with **administrative privileges**. Start by creating a new file and entering the provided pre-configured script. Running the script will generate the random employees as specified.  
   
 >**Source**: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
