@@ -255,8 +255,8 @@ The users being created from the Powershell script will now be within the **Acti
   
 You can login on `Client-1` with any user that has been created.   
   
-<img src="https://i.imgur.com/Xhx8VSi.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/VboO8D9.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/etVci5N.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
